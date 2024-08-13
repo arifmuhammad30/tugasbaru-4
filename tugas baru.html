@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=zz, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="mylogo.png" height="100px" width="100px" alt="logo">
+    <form>
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Pendafdataran Praktek Kerja Lapangan (PKL)</h2>
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Biodata</h2>
+        <label for="nama lengkap">Nama Lengkap:</label><br>
+        <input type="text" id="nama lengkap" name="nama lengkap"><br>
+        <label for="kls">Kelas:</label><br>
+        <input type="text" id="kls" name="kls"><br>
+        <label for="ttl">Tempat Lahir:</label><br>
+        <input type="text" id="ttl" name="ttl"><br>
+        <label for="ttl">Tanggal Lahir:</label><br>
+        <input type="date" id="ttl" name="ttl"><br>
+        <label for="usia">Usia:</label><br>
+        <input type="number" id="usia" name="usia"><br>
+        <input type="radio" id="Laki-laki" name="jeniskelamin" value="Laki-laki">
+        <label for="Laki-laki">Laki-laki</label><br>
+        <input type="radio" id="Perempuan" name="jeniskelamin" value="Perempuan>
+        <label for="Perempuan">Perempuan</label><br>
+        <label for="agama">Agama:</label><br>
+        <input type="text" id="agama" name="agama"><br>
+        <label for="provinsi">Provinsi:</label><br>
+        <input type="search" id="provinsi" name="provinsi"><br>
+        <label for="kodepos">Kode pos:</label><br>
+        <input type="text" id="kodepos" name="kodepos"><br>
+    </form>
+    <form>
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Alamat</h2>
+        <label for="alamat lengkap">Alamat Lengkap:</label><br>
+        <input type="text" id="alamat lengkap" name="alamat lengkap"><br>
+        <label for="rt">RT:</label><br>
+        <input type="number" id="rt" name="rt"><br>
+        <label for="rw">RW:</label><br>
+        <input type="number" id="rw" name="rw"><br>
+    </form>
+
+    <p>Desa/Kelurahan</p>
+    <form action="/action_page php">
+        <input list="desa" name="desa">
+        <datalist id="desa">
+            <option value="Jambudipa">
+                <option value="Kertawangi">
+                    <option value="Padaasih">
+                        <option value="Tugu Mukti">
+                            <option value="Pasir Halang">
+        </datalist>
+    </form>
+
+    <p>Kecamatan</p>
+    <form action="/action_page php">
+        <input list="kecamatan" name="kecamatan">
+        <datalist id="kecamatan">
+            <option value="Cisarua">
+                <option value="Cipatat">
+                    <option value="Parongpong">
+                        <option value="Lembang">
+                            <option value="Padalarang">
+        </datalist>
+    </form>
+
+    <p>Kabupaten/Kota</p>
+    <form action="/action_page php">
+        <input list="kabupaten" name="kabupaten">
+        <datalist id="kabupaten">
+            <option value="Bandung Barat">
+                <option value="Cianjur">
+                    <option value="Sumedang">
+                        <option value="Cimahi">
+                            <option value="Jakarta">
+        </datalist>
+    </form>
+
+    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Kontak</h2>
+    <p>No Telepon</p>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+    <form>
+     <label for="orgtua">Nama Orang Tua:</label><br>
+     <input type="text" id="orgtua" name="orgtua"><br>
+     <label for="email">Email Siswa:</label><br>
+     <input type="text" id="email" name="email"><br>
+    </form>
+
+    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Akun</h2>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <label for="pwd">Konfirmasi Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+    </form>
+
+    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Tempat PKL</h2>
+    <form>
+        <input type="checkbox" id="tempatpkl1" name="tempatpkl1" value="pkl">
+        <label for="tempatpkl1">PT.SIGMATECH</label><br>
+        <input type="checkbox" id="tempatpkl2" name="tempatpkl2" value="pkl">
+        <label for="tempatpkl2">PT.Hastari Adakara Investama</label><br>
+        <input type="checkbox" id="tempatpkl3" name="tempatpkl3" value="pkl">
+        <label for="tempatpkl3">PT EDS Manufacturing Indonesia AW Division</label><br>
+        <input type="checkbox" id="tempatpkl4" name="tempatpkl4" value="pkl">
+        <label for="tempatpkl4">PT Shankei Dharma Indonesia</label><br>
+        <input type="checkbox" id="tempatpkl5" name="tempatpkl5" value="pkl">
+        <label for="tempatpkl5">Tokopedia</label><br>
+        <input type="checkbox" id="tempatpkl6" name="tempatpkl6" value="pkl">
+        <label for="tempatpkl6">PT Tri Adi Bersama</label><br>
+        <input type="checkbox" id="tempatpkl7" name="tempatpkl7" value="pkl">
+        <label for="tempatpkl7">Tiktok</label><br>
+        <input type="checkbox" id="tempatpkl8" name="tempatpkl8" value="pkl">
+        <label for="tempatpkl8">SHIFTinc</label><br>
+        <input type="checkbox" id="tempatpkl9" name="tempatpkl9" value="pkl">
+        <label for="tempatpkl9">PT Panca Kusuma Raya</label><br>
+        <input type="checkbox" id="tempatpkl10" name="tempatpkl10" value="pkl">
+        <label for="tempatpkl10">GudangAda</label><br>
+        <input type="checkbox" id="tempatpkl11" name="tempatpkl11" value="pkl">
+        <label for="tempatpkl11">PT Mandiri Cipta Sejahtera</label><br>
+        <input type="checkbox" id="tempatpkl12" name="tempatpkl12" value="pkl">
+        <label for="tempatpkl12">Indofood CBP</label><br>
+        <input type="checkbox" id="tempatpkl13" name="tempatpkl13" value="pkl">
+        <label for="tempatpkl13">PT Sinergy Informasi Pratama</label><br>
+        <input type="checkbox" id="tempatpkl14" name="tempatpkl14" value="pkl">
+        <label for="tempatpkl14">PT Ap Center</label><br>
+        <input type="checkbox" id="tempatpkl15" name="tempatpkl15" value="pkl">
+        <label for="tempatpkl15">COTTONINK</label><br>
+    </form>
+
+    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Upload Persyaratan</h2>
+    <label for="foto">Upload Foto 3x4:</label><br>
+    <input type="file" id="foto" name="foto"><br>
+    <label for="foto">Upload Kartu Tanda Pelajar:</label><br>
+    <input type="file" id="foto" name="foto"><br>
+
+    <form style="position: relative; top: 20px;">
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    </form>
+
+</body>
+</html>
